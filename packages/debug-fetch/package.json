@@ -1,0 +1,21 @@
+{
+    "name": "@coredat/debug-fetch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "uilib": "file:../uilib/build",
+        "@coredat/fetch": "file:../fetch/build",
+        "@coredat/debug": "file:../fetch/debug"
+    },
+    "peerDependencies": {
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    }
+}

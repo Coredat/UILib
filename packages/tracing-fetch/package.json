@@ -1,0 +1,23 @@
+{
+    "name": "@coredat/tracing-fetch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "uilib": "file:../uilib/build",
+        "@coredat/tracing": "file:../tracing/build",
+        "@coredat/fetch": "file:../fetch/build"
+    },
+    "peerDependencies": {
+        "@opentelemetry/api": "^1.8.0",
+        "@opentelemetry/semantic-conventions": "^1.23.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    }
+}

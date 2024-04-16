@@ -1,0 +1,24 @@
+{
+    "name": "@coredat/tracing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "uilib": "file:../uilib/build"
+    },
+    "peerDependencies": {
+        "@opentelemetry/api": "^1.8.0",
+        "@opentelemetry/exporter-trace-otlp-http": "^0.50.0",
+        "@opentelemetry/resources": "^1.23.0",
+        "@opentelemetry/sdk-trace-base": "^1.23.0",
+        "@opentelemetry/semantic-conventions": "^1.23.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    }
+}

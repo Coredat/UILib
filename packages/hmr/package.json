@@ -1,0 +1,17 @@
+{
+    "name": "@coredat/hmr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "uilib": "file:../uilib/build"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    }
+}
